@@ -8,7 +8,7 @@ import {
   database,
   framework,
   tools,
-} from "@/public/data";
+} from "@/data";
 
 const Skills = () => {
   return (
