@@ -5,6 +5,7 @@ import Skills from "./Skills";
 const About = () => {
   return (
     <div
+      id="about"
       className="flex flex-row justify-center items-start w-full h-screen
      border-2 border-red-600 py-24"
     >

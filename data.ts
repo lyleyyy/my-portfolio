@@ -8,10 +8,10 @@ const language = [
   "SQL",
 ];
 const frontend = ["React", "Tailwind", "Chakra UI", "Bootstrap"];
-const backend = ["Node.js", "Express", "Supabase"];
+const backend = ["Node.js", "Express", "RESTful APIs", "Supabase"];
 const database = ["MySQL", "PostgreSQL", "MongoDB"];
-const framework = ["Next.js", "CodeIgniter 4"];
-const tools = ["Git, GitHub, NPM"];
+const framework = ["Next.js", "CodeIgniter"];
+const tools = ["Git", "GitHub", "NPM", "Prisma"];
 
 const experiences = [
   {
@@ -19,6 +19,7 @@ const experiences = [
     company: "BOC Macau",
     position: "Scholastic Program",
     duration: "Jan 2014",
+    location: "Macau",
   },
 
   {
@@ -26,6 +27,7 @@ const experiences = [
     company: "HMV & Associates",
     position: "Staff Accountant",
     duration: "Jan 2015 - Jul 2017",
+    location: "Macau",
   },
 
   {
@@ -33,6 +35,7 @@ const experiences = [
     company: "Luso Int'l Banking Ltd.",
     position: "Finance Officer",
     duration: "Feb 2018 - Aug 2020",
+    location: "Macau",
   },
 ];
 
@@ -42,6 +45,7 @@ const experienceIT = [
     company: "Freelance",
     position: "Web Development",
     duration: "Jul 2023 - Present",
+    location: "Brisbane",
   },
 
   {
@@ -49,6 +53,58 @@ const experienceIT = [
     company: "JR Academy",
     position: "Web Developer Bootcamp",
     duration: "Aug 2023 - Present",
+    location: "Brisbane",
+  },
+];
+
+const commercialProjects = [
+  {
+    title: "Iron Force",
+    img: "/images/iron_force.png",
+    techStacks: ["HTML/CSS", "JavaScript"],
+    github: "https://github.com/lyleyyy/gym-website.github.io",
+    link: "https://iron-force.netlify.app/",
+  },
+
+  {
+    title: "Work-in-Progress",
+    img: "/images/jrp3.jpg",
+    techStacks: [
+      "Next.js",
+      "React",
+      "Tailwind",
+      "PostgreSQL",
+      "Prisma",
+      "Vercel",
+    ],
+    github: "",
+    link: "",
+  },
+];
+
+const practiceProjects = [
+  {
+    title: "Gamehub",
+    img: "/images/gamehub.png",
+    techStacks: ["React", "Chakra UI"],
+    github: "https://github.com/lyleyyy/game-hub-mosh",
+    link: "https://game-hub-mosh-one.vercel.app/",
+  },
+
+  {
+    title: "Spotify Clone",
+    img: "/images/spotify.png",
+    techStacks: ["Next.js", "React", "Tailwind", "PostgreSQL", "Supabase"],
+    github: "https://github.com/lyleyyy/next-spotify-clone",
+    link: "https://next-spotify-clone-nine.vercel.app/",
+  },
+
+  {
+    title: "Learning & Discussion Forum",
+    img: "/images/gamehub.png",
+    techStacks: ["CodeIgniter", "PHP", "MySQL", "Bootstrap"],
+    github: "https://github.com/lyleyyy/game-hub-mosh",
+    link: "https://game-hub-mosh-one.vercel.app/",
   },
 ];
 
@@ -61,4 +117,6 @@ export {
   tools,
   experiences,
   experienceIT,
+  commercialProjects,
+  practiceProjects,
 };

@@ -6,6 +6,7 @@ interface ExperienceCardProps {
   company: string;
   position: string;
   duration: string;
+  location: string;
 }
 
 const ExperienceCard = ({
@@ -13,6 +14,7 @@ const ExperienceCard = ({
   company,
   position,
   duration,
+  location,
 }: ExperienceCardProps) => {
   return (
     <div className="flex flex-row justify-between items-center shadow-xl rounded-xl w-[350px] h-[150px] p-5">
@@ -30,6 +32,7 @@ const ExperienceCard = ({
           <h3 className="text-lg font-semibold">{company}</h3>
           <p className="text-lg">{position}</p>
           <p className="text-sm text-gray-600">{duration}</p>
+          <p className="text-sm text-gray-600">{location}</p>
         </div>
       </div>
     </div>

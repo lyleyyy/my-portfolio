@@ -5,10 +5,11 @@ const IntroImage = () => {
   return (
     <div className="rounded m-5">
       <Image
-        src="/images/intro_image.avif"
+        src="/images/coding.gif"
+        // src="/images/intro_image.avif"
         alt="intro_image"
-        width={500}
-        height={500}
+        width={600}
+        height={600}
         className="rounded"
       ></Image>
     </div>
