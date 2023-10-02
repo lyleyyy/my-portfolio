@@ -22,7 +22,9 @@ const SkillCard = ({ title, skills, color }: SkillCardProps) => {
         <h3 className="text-xl font-semibold">{title}</h3>
         <div className="flex gap-2 mb-2 flex-wrap">
           {skills.map((skill) => (
-            <SkillItem key={skill} children={skill} color={color} />
+            <SkillItem key={skill} color={color}>
+              {skill}
+            </SkillItem>
           ))}
         </div>
       </div>
