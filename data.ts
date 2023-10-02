@@ -1,3 +1,5 @@
+import { Project } from "./types";
+
 const language = [
   "HTML/CSS/Sass",
   "JavaScript (ES6+)",
@@ -68,19 +70,12 @@ const commercialProjects = [
 
   {
     title: "Work-in-Progress",
-    img: "/images/jrp3.jpg",
-    techStacks: [
-      "Next.js",
-      "React",
-      "Tailwind",
-      "PostgreSQL",
-      "Prisma",
-      "Vercel",
-    ],
+    img: "/images/jrp3.png",
+    techStacks: ["Agile", "Next.js", "Vercel"],
     github: "",
     link: "",
   },
-];
+] as Project[];
 
 const practiceProjects = [
   {
@@ -94,19 +89,19 @@ const practiceProjects = [
   {
     title: "Spotify Clone",
     img: "/images/spotify.png",
-    techStacks: ["Next.js", "React", "Tailwind", "PostgreSQL", "Supabase"],
+    techStacks: ["Next.js", "Tailwind", "PostgreSQL"],
     github: "https://github.com/lyleyyy/next-spotify-clone",
     link: "https://next-spotify-clone-nine.vercel.app/",
   },
 
   {
     title: "Learning & Discussion Forum",
-    img: "/images/gamehub.png",
-    techStacks: ["CodeIgniter", "PHP", "MySQL", "Bootstrap"],
+    img: "/images/ci.png",
+    techStacks: ["CodeIgniter", "PHP", "MySQL"],
     github: "https://github.com/lyleyyy/game-hub-mosh",
-    link: "https://game-hub-mosh-one.vercel.app/",
+    link: "",
   },
-];
+] as Project[];
 
 export {
   language,

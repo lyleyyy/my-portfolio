@@ -22,7 +22,7 @@ const SkillItem = ({ children, color }: SkillItemProps) => {
       fontWeight="bold"
       borderRadius="md"
       // bgGradient={bgGradient[color as keyof typeof bgGradient]}
-      bgGradient="linear(to-r, teal.500, teal.500)"
+      bgGradient="linear(to-r, purple.500, purple.500)"
     >
       {children}
     </Box>

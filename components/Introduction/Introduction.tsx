@@ -4,10 +4,7 @@ import IntroImage from "./IntroImage";
 
 const Introduction = () => {
   return (
-    <div
-      className="flex flex-row justify-center items-center w-full h-screen
-     border-2 border-red-600"
-    >
+    <div className="flex flex-row justify-center items-center w-full h-screen max-md:flex-col">
       <IntroDescription />
       <IntroImage />
     </div>

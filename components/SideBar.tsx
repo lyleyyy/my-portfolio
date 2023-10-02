@@ -6,15 +6,21 @@ import { AiOutlineMail } from "react-icons/ai";
 
 const SideBar = () => {
   return (
-    <div className="fixed right-0 h-full border-2 border-indigo-700">
+    <div className="fixed right-0 h-full">
       <div className="flex flex-col justify-center items-center m-5 h-full gap-y-2">
-        <Link href="https://github.com/lyleyyy?tab=repositories">
+        <Link
+          href="https://github.com/lyleyyy?tab=repositories"
+          className="hover:text-blue-500"
+        >
           <BsLinkedin size={35} />
         </Link>
-        <Link href="https://github.com/lyleyyy?tab=repositories">
+        <Link
+          href="https://github.com/lyleyyy?tab=repositories"
+          className="hover:text-blue-500"
+        >
           <BsGithub size={35} />
         </Link>
-        <Link href="mailto:lyletwro@gmail.com">
+        <Link href="mailto:lyletwro@gmail.com" className="hover:text-blue-500">
           <AiOutlineMail size={35} />
         </Link>
       </div>

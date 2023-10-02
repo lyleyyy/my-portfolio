@@ -12,7 +12,7 @@ import {
 
 const Skills = () => {
   return (
-    <div className="flex flex-col w-6/12 justify-center items-start pl-28">
+    <div className="flex flex-col w-6/12 justify-center items-start pl-28 max-md:w-full max-md:pl-10">
       <Title title="Skills" />
       <div className="flex flex-col gap-y-3">
         <SkillCard title="Languages" skills={language} color="green" />

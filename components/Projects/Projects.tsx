@@ -1,22 +1,24 @@
 import React from "react";
 import Title from "../Title";
-import ProjectCard from "./ProjectCard";
 import { commercialProjects, practiceProjects } from "@/data";
+import ProjectPart from "./ProjectPart";
 
 const Projects = () => {
   return (
     <div
       id="projects"
-      className="flex flex-col justify-center items-center w-full h-screen border-2 border-red-500"
+      className="flex flex-col justify-center items-center w-full h-full p-20"
     >
       <Title title="Projects" />
-      <div>
-        <h2>Comercial Projects</h2>
-        <ProjectCard />
-      </div>
-
-      <div>
-        <h2>Practice Projects</h2>
+      <div className="flex flex-col justify-center items-start gap-y-5">
+        <ProjectPart
+          partTitle="Commercial Projects"
+          projects={commercialProjects}
+        />
+        <ProjectPart
+          partTitle="Practice Projects"
+          projects={practiceProjects}
+        />
       </div>
     </div>
   );

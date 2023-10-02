@@ -3,7 +3,7 @@ import Title from "../Title";
 
 const Summary = () => {
   return (
-    <div className="flex flex-col w-6/12 justify-center items-start pl-56">
+    <div className="flex flex-col w-6/12 justify-center items-start pl-56 max-md:w-full max-md:pl-10 max-md:mb-10">
       <Title title="Summary" />
       <section className="flex flex-col justify-center items-center text-xl gap-y-6 w-10/12">
         <p className="">
