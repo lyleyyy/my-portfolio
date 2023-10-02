@@ -9,7 +9,7 @@ const SideBar = () => {
     <div className="fixed right-0 h-full">
       <div className="flex flex-col justify-center items-center m-5 h-full gap-y-2">
         <Link
-          href="https://github.com/lyleyyy?tab=repositories"
+          href="https://www.linkedin.com/in/weizhi-yang-b694211b7/"
           className="hover:text-blue-500"
         >
           <BsLinkedin size={35} />
