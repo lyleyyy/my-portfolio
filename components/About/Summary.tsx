@@ -26,8 +26,8 @@ const Summary = () => {
         <p className="">
           Currently, I work as a freelancer, helping individual businesses
           develop websites. Additionally, I&apos;m part of a small team working
-          in an Agile development environment on a project similar to Meetup,
-          set to launch in December 2023.
+          in an Agile development environment on a commercial project similar to
+          Meetup, planning to launch around December 2023.
         </p>
       </section>
     </div>

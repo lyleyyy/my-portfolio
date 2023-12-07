@@ -13,7 +13,7 @@ const IntroDescription = () => {
       <p className="text-xl mb-3">Hi! I am</p>
       <h1 className="text-5xl mb-3 font-semibold">Lyle Yang</h1>
       <p className="text-xl font-medium">
-        I am a self-taught programmer with a strong enthusiasm for programming.
+        I am a web developer with a strong enthusiasm for programming.
       </p>
       <p className="text-xl mb-3 font-medium">
         I delivery SOLID code with{" "}
